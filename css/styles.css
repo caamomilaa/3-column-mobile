@@ -11,3 +11,83 @@ img {
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: #f2f2f2;
+  font-size: 15px;
+}
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #f2f2f2;
+}
+.main {
+  border-radius: 8px;
+}
+.sedans {
+  position: relative;
+  width: 327px;
+  height: 442px;
+  background-color: #e28625;
+  padding: 50px;
+  border-radius: 8px, 8px, 0px, 0 px;
+}
+.suvs {
+  position: relative;
+  width: 327px;
+  height: 442px;
+  background-color: #006971;
+  padding: 50px;
+}
+.luxury {
+  position: relative;
+  width: 327px;
+  height: 442px;
+  background-color: #004140;
+  padding: 50px;
+}
+.button1 {
+  position: absolute;
+  color: #e28625;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  padding: 10px;
+  bottom: 48;
+  width: 146px;
+  text-align: center;
+}
+.button2 {
+  position: absolute;
+  color: #006971;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  padding: 10px;
+  bottom: 48;
+  width: 146px;
+  text-align: center;
+}
+.button3 {
+  position: absolute;
+  color: #004140;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  padding: 10px;
+  bottom: 48;
+  width: 146px;
+  text-align: center;
+}
+.circle {
+  position: relative;
+  border-radius: 50px;
+  background-color: #0000001d;
+  width: 40px;
+  height: 40px;
+}
+.img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
