@@ -14,7 +14,7 @@ html {
 body {
   font-family: "Lexend Deca", sans-serif;
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 h2 {
   font-family: "Big Shoulders Display", sans-serif;
@@ -34,6 +34,7 @@ h2 {
   background-color: #e28625;
   padding: 50px;
   border-radius: 8px, 8px, 0px, 0 px;
+  font-size: 1rem;
 }
 .suvs {
   position: relative;
@@ -41,6 +42,7 @@ h2 {
   height: 442px;
   background-color: #006971;
   padding: 50px;
+  font-size: 1rem;
 }
 .luxury {
   position: relative;
@@ -48,6 +50,7 @@ h2 {
   height: 442px;
   background-color: #004140;
   padding: 50px;
+  font-size: 1rem;
 }
 .button1 {
   position: absolute;
@@ -90,4 +93,50 @@ h2 {
   position: absolute;
   top: 10px;
   left: 20px;
+}
+.main {
+  font-size: 0;
+}
+@media screen and (width >= 768px) {
+  .sedans {
+    display: inline-block;
+    font-size: 1rem;
+    height: 500px;
+  }
+  .suvs {
+    display: inline-block;
+    font-size: 1rem;
+    height: 500px;
+  }
+  .luxury {
+    display: inline-block;
+    font-size: 1rem;
+    height: 500px;
+  }
+  .button1 {
+    bottom: 100px;
+  }
+  .button2 {
+    bottom: 100px;
+  }
+  .button3 {
+    bottom: 100px;
+  }
+}
+@media (hover: hover) {
+  .button1:hover {
+    background-color: #e28625;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+  }
+  .button2:hover {
+    background-color: #006971;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+  }
+  .button3:hover {
+    background-color: #004140;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+  }
 }
